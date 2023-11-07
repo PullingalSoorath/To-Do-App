@@ -512,7 +512,6 @@ class _HomePageState extends State<HomePage> {
                         onTap: () {
                           _showProfile(ctx, currentItem['key']);
                         },
-
                         shape: const RoundedRectangleBorder(
                           borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
@@ -537,19 +536,6 @@ class _HomePageState extends State<HomePage> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        // trailing: Row(
-                        //   mainAxisSize: MainAxisSize.min,
-                        //   children: [
-                        //     IconButton(
-                        //       onPressed: () => _showForm(ctx, currentItem['key']),
-                        //       icon: const Icon(Icons.edit),
-                        //     ),
-                        //     IconButton(
-                        //       onPressed: () => _deleteItem(currentItem['key']),
-                        //       icon: const Icon(Icons.delete),
-                        //     ),
-                        //   ],
-                        // ),
                       ),
                     );
                   }),
