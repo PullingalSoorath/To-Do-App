@@ -526,15 +526,15 @@ class _HomePageState extends State<HomePage> {
                           style: TextStyle(
                             color: textColor,
                             fontWeight: FontWeight.bold,
-                            fontSize: 18,
+                            fontSize: 20,
                           ),
                         ),
                         subtitle: Text(
                           currentItem["email"].toString(),
                           style: TextStyle(
-                            color: textColor,
-                            fontWeight: FontWeight.bold,
-                          ),
+                              color: textColor,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18),
                         ),
                       ),
                     );
